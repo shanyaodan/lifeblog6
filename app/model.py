@@ -15,3 +15,4 @@ class User(db.Model):
 	realname = db.Column(db.String(64));
 	nickname = db.Column(db.String(64));
 	role_id=db.Column(db.Integer,db.ForeignKey('roles.id'))
+
